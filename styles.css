@@ -1,79 +1,68 @@
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-
-body {
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
-    color: white;
-    text-align: center;
-    padding: 50px;
+.about-us {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #fff;
 }
-
-header {
-    margin-top: 50px;
-    padding: 50px 20px;
+.pic {
+  height: auto;
+  width: 400px;
+  border-radius: 12px;
 }
-
-h1 {
-    font-size: 36px;
-    font-weight: 600;
+.about {
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-
-.typing {
-    color: #fcd703;
+.text {
+  width: 540px;
 }
-
-p {
-    font-size: 18px;
-    margin: 10px 0;
+.text h2 {
+  color: #333;
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
-
-.btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 24px;
-    background: #fcd703;
-    color: #2a5298;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: 0.3s;
+.text h5 {
+  color: #333;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
-
-.btn:hover {
-    background: white;
-    color: #1e3c72;
+span {
+  color: #4070f4;
 }
-
-section {
-    margin-top: 50px;
-    padding: 20px;
+.text p {
+  color: #333;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
 }
-
-.social-links a {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    border: 2px solid white;
-    border-radius: 6px;
-    transition: 0.3s;
+.data {
+  margin-top: 30px;
 }
-
-.social-links a:hover {
-    background: white;
-    color: #2a5298;
+.hire {
+  font-size: 18px;
+  background: #4070f4;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
 }
-
-footer {
-    margin-top: 30px;
-    font-size: 14px;
-    opacity: 0.8;
+.hire:hover {
+  background: #000;
 }
