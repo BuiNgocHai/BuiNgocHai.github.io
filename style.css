@@ -130,7 +130,6 @@ a:hover {
 .hero-banner {
     width: 100vw;
     margin-left: calc(50% - 50vw);
-    overflow: hidden;
     line-height: 0;
 }
 
@@ -138,9 +137,6 @@ a:hover {
     width: 100%;
     height: auto;
     display: block;
-    max-height: 420px;
-    object-fit: cover;
-    object-position: center center;
 }
 
 .hero-inner {
@@ -159,7 +155,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    margin-top: -72px;
+    margin-top: -96px;
     position: relative;
     z-index: 1;
 }
@@ -427,11 +423,7 @@ a:hover {
     }
 
     .hero-profile {
-        margin-top: -56px;
-    }
-
-    .hero-banner-img {
-        max-height: 220px;
+        margin-top: -72px;
     }
 
     .avatar-wrapper {
