@@ -130,8 +130,9 @@ a:hover {
 .hero-banner {
     width: 100vw;
     margin-left: calc(50% - 50vw);
-    height: clamp(180px, 24vw, 300px);
+    height: clamp(240px, 30vw, 400px);
     overflow: hidden;
+    background: #0d1117;
 }
 
 .hero-banner-img {
@@ -139,7 +140,7 @@ a:hover {
     height: 100%;
     display: block;
     object-fit: cover;
-    object-position: center center;
+    object-position: center 45%;
 }
 
 .hero-inner {
@@ -423,6 +424,14 @@ a:hover {
 
     .main {
         padding: 0 16px 48px;
+    }
+
+    .hero-banner {
+        height: clamp(180px, 44vw, 280px);
+    }
+
+    .hero-banner-img {
+        object-position: center 42%;
     }
 
     .hero-profile {
