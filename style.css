@@ -130,7 +130,7 @@ a:hover {
 .hero-banner {
     width: 100vw;
     margin-left: calc(50% - 50vw);
-    height: clamp(240px, 30vw, 400px);
+    height: clamp(340px, 44vw, 580px);
     overflow: hidden;
     background: #0d1117;
 }
@@ -427,7 +427,7 @@ a:hover {
     }
 
     .hero-banner {
-        height: clamp(180px, 44vw, 280px);
+        height: clamp(260px, 58vw, 420px);
     }
 
     .hero-banner-img {
