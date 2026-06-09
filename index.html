@@ -4,42 +4,247 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me Page | Responsive</title>
+    <meta name="description" content="Bùi Ngọc Hải — AI Engineer at Cinnamon AI, specializing in Document AI, LLMs, RAG, and MLOps.">
+    <title>Bùi Ngọc Hải | AI Engineer</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="content">
-        <div class="left"  data-aos="zoom-in-right" data-aos-delay="100" data-aos-easing="ease-in-out">
-            <img src="circle_image.png" alt="">
-        </div>
+    <a class="skip-link" href="#main">Skip to main content</a>
 
-        <div class="right"  data-aos="zoom-in-left" data-aos-delay="100" data-aos-easing="ease-in-out">
-            <h1>Bùi Ngọc Hải</h1>
-            <p>
-                Hello! I'm an AI Engineer at <a href="https://cinnamon.ai/en/" target="_blank">Cinnamon AI</a> Cinnamon AI is the pioneer in business consulting and developing AI solutions. The existing products include AI Document Reader (Flax Scanner), Document Understanding (Aurora), Speech Understanding (Rossa Voice), Computer Vision and keep expanding.
-            </p>
-            <p>My work is mostly about Computer Vision, MLOps, Automation Development.</p>
+    <header class="site-header">
+        <nav class="nav" aria-label="Main navigation">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#awards" class="nav-link">Awards</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#moments" class="nav-link">Moments</a>
+        </nav>
+    </header>
 
-            <p>
-                If you want to talk, please contact me to linkedin.
-            </p>
-            <div class="icon">
-                <a href="https://github.com/BuiNgocHai" target="_blank"><img src="github.png" alt="GitHub"></a>
-                <a href="https://www.linkedin.com/in/bui-hai-68b224192/" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+    <main id="main" class="main">
+        <section id="home" class="hero section">
+            <div class="hero-profile">
+                <img src="circle_image.png" alt="Bùi Ngọc Hải" class="avatar">
+                <h1 class="name">Bùi Ngọc Hải</h1>
+                <p class="subtitle">AI Engineer · Vietnam</p>
+
+                <div class="social-links">
+                    <a href="https://github.com/BuiNgocHai" target="_blank" rel="noopener noreferrer" title="GitHub">
+                        <img src="github.png" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/bui-hai-68b224192/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                        <img src="linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="mailto:buingochai191@gmail.com" title="Email">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    </a>
+                    <a href="BuiHai_Jun2026.pdf" target="_blank" rel="noopener noreferrer" title="CV" class="cv-link">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg>
+                        <span>CV</span>
+                    </a>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+            <div class="hero-content">
+                <p>
+                    Hi! I am Hải (aka. Bùi Ngọc Hải), an <strong>AI Engineer at <a href="https://cinnamon.ai/en/" target="_blank" rel="noopener noreferrer">Cinnamon AI</a></strong> since February 2020.
+                    I specialize in <strong>Document Information Extraction</strong>, <strong>LLMs</strong>, <strong>RAG</strong>, and <strong>MLOps</strong>,
+                    building scalable AI platforms that serve enterprise clients across diverse document types.
+                </p>
+                <p>
+                    At Cinnamon AI, I have led the development of <strong>Flax Scanner Hub</strong> — an intelligent document extraction platform
+                    leveraging Azure Document Intelligence and LLMs — and contributed to internal engineering excellence initiatives
+                    including CI/CD pipelines, AWS automation, and AI evaluation platforms.
+                    I also served as <strong>Project Technical Lead</strong>, defining AI solutions and communicating strategies with clients and PMs.
+                </p>
+                <p>
+                    Previously, I worked as an AI Engineer at <strong>VCCorp</strong>, developing a video recommendation system for the Lotus social network,
+                    and as an AI Engineer Intern at <strong>Zinza Technology</strong>, building Vietnamese Handwriting OCR and face detection systems.
+                </p>
+                <p>
+                    I obtained my <strong>Bachelor's Degree in Computer Science</strong> from Hanoi University of Industry in 2021.
+                    I have competed in scientific research competitions, hackathons, and programming contests including
+                    FPT Digital Race and the Cinnamon AI Marathon.
+                </p>
+                <p class="contact-line">
+                    📧 <a href="mailto:buingochai191@gmail.com">buingochai191@gmail.com</a>
+                    &nbsp;·&nbsp;
+                    📱 (+84) 0965661935
+                </p>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <h2>Industry Experience</h2>
+            <ul class="timeline">
+                <li>
+                    <span class="emoji" aria-hidden="true">🧑‍💻</span>
+                    <div>
+                        <strong>Feb 2020 – Present:</strong> AI Engineer at <a href="https://cinnamon.ai/en/" target="_blank" rel="noopener noreferrer">Cinnamon AI</a>, Vietnam.
+                    </div>
+                </li>
+                <li>
+                    <span class="emoji" aria-hidden="true">🧑‍💻</span>
+                    <div>
+                        <strong>2019 – Feb 2020:</strong> AI Engineer at VCCorp Corporation.
+                    </div>
+                </li>
+                <li>
+                    <span class="emoji" aria-hidden="true">🧑‍💻</span>
+                    <div>
+                        <strong>Sep 2018 – Apr 2019:</strong> AI Engineer Intern at Zinza Technology.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Selected Projects</h2>
+            <p class="section-intro">Key projects I have built and led during my career:</p>
+
+            <article class="project-card">
+                <h3>🤖 Flax Scanner Hub</h3>
+                <p class="project-meta">Cinnamon AI · Document Information Extraction Platform</p>
+                <ul>
+                    <li>Built an intelligent Document Information Extraction platform leveraging Azure Document Intelligence, LLMs, and RAG techniques, achieving ~89% extraction accuracy across diverse document types.</li>
+                    <li>Designed a scalable microservices architecture capable of serving 1M concurrent users, ensuring fair resource distribution across tenants and processing over 10,000 pages per hour using 8 distributed services.</li>
+                    <li>Built an LLM Gateway centralizing third-party API calls, enabling token usage tracking for client billing.</li>
+                    <li>Implemented response caching and latency simulation, saving cost for each API call in performance testing.</li>
+                    <li>Designed a document abstraction layer providing a consistent interface for extracting content, layout, and structural metadata from diverse document formats.</li>
+                    <li>Designed a multi-document question-answering system leveraging RAG pipelines and LLMs for natural language conversations.</li>
+                    <li>Designed an AI evaluation platform for automated accuracy benchmarking, release-to-release comparisons, and failure analysis.</li>
+                </ul>
+            </article>
+
+            <article class="project-card">
+                <h3>🤖 Document Information Extraction</h3>
+                <p class="project-meta">Cinnamon AI · Client Delivery</p>
+                <ul>
+                    <li>Developed AI models for Document Information Extraction, ensuring customized output to fit client-specific requirements with successful delivery for 10+ clients.</li>
+                    <li>Designed and developed a graph-based rule engine modeling project-specific business logic as configurable dependency graphs, reducing developer workload by 70% while enabling rule updates without application rebuilds.</li>
+                    <li>Conducted model research, evaluation, and performance benchmarking to select the most effective architectures across diverse document types.</li>
+                </ul>
+            </article>
+
+            <article class="project-card">
+                <h3>🤖 Engineering Excellence / Internal Platform</h3>
+                <p class="project-meta">Cinnamon AI · Internal Tools &amp; Infrastructure</p>
+                <ul>
+                    <li><strong>Automated AWS Setup:</strong> Built deployment automation for AWS (EC2, S3, ECR), reducing setup time for new client projects by 90%.</li>
+                    <li><strong>CI/CD Standardization:</strong> Developed CI/CD for internal AI library and AI pipeline, standardizing AI Engineers' workflows.</li>
+                    <li><strong>Image Labeling System:</strong> Built a bounding box annotation tool, streamlining dataset creation for AI training.</li>
+                    <li><strong>Multi-Format Image Reader:</strong> Developed a reader supporting PDF, PNG, JPG, HEIC, improving usability and reducing development time by 10% per project.</li>
+                    <li><strong>Project Performance Tracking:</strong> Built an automated tracking system monitoring project performance (speed, milestones, logging hours), saving 10% of management time.</li>
+                    <li><strong>Hugging Face Integration:</strong> Extended AI capabilities to Hugging Face, enabling non-technical users to utilize AI functions and reducing developer dependency by 90%.</li>
+                </ul>
+            </article>
+
+            <article class="project-card">
+                <h3>🤖 Video Watching Recommend</h3>
+                <p class="project-meta">VCCorp · Lotus Social Network</p>
+                <ul>
+                    <li>Developed a video recommendation system for the Lotus social network using deep learning for video classification and personalized recommendations.</li>
+                    <li>Integrated AI models into the Lotus system, handling over 1,000 daily users, utilizing Python, Torch, OpenCV, Kafka, and MySQL.</li>
+                </ul>
+            </article>
+
+            <article class="project-card">
+                <h3>🤖 OCR Handwriting &amp; Face Detection</h3>
+                <p class="project-meta">Zinza Technology · Computer Vision</p>
+                <ul>
+                    <li>Implemented deep learning models (CNN, RNN) for handwriting OCR.</li>
+                    <li>Built a data pipeline to generate up to 60 million training images for Vietnamese Handwriting OCR models.</li>
+                    <li>Developed a data transfer protocol between servers and cameras.</li>
+                    <li>Integrated deep learning models for face recognition.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="awards" class="section">
+            <h2>Awards and Honors</h2>
+            <p class="section-intro">Competitions and recognitions I have received:</p>
+            <ul class="award-list">
+                <li><span class="emoji" aria-hidden="true">🏆</span> <strong>1st Place</strong> — Scientific Research Competition, Hanoi University of Industry: Auto Detecting students cheating in exam room (2021).</li>
+                <li><span class="emoji" aria-hidden="true">🏆</span> <strong>National Semi-finals</strong> — FPT Digital Race: Self-driving car programming contest (2020).</li>
+                <li><span class="emoji" aria-hidden="true">🏆</span> <strong>1st Place</strong> — Bedrock Hackathon: Automatically fill information to many different forms (2019).</li>
+                <li><span class="emoji" aria-hidden="true">🏆</span> <strong>7th Place</strong> — Northern Semi-finals, FPT Digital Race: Self-driving car programming contest (2019).</li>
+                <li><span class="emoji" aria-hidden="true">🏆</span> <strong>5th Place</strong> — Cinnamon AI Marathon: Develop Handwriting OCR for Vietnamese Address (2019).</li>
+            </ul>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <ul class="edu-list">
+                <li>
+                    <span class="emoji" aria-hidden="true">🎓</span>
+                    <div>
+                        <strong>Hanoi University of Industry</strong> — Bachelor of Computer Science<br>
+                        <span class="meta">Aug 2017 – May 2021</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="emoji" aria-hidden="true">🎓</span>
+                    <div>
+                        <strong>Rubik AI Talent</strong> — Certificate of Computer Science<br>
+                        <span class="meta">Apr 2019 – Sep 2019</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="emoji" aria-hidden="true">🎓</span>
+                    <div>
+                        <strong>FUNiX University</strong> — Certificate of Automotive Programming Scholarship<br>
+                        <span class="meta">May 2019 – Nov 2020</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills &amp; Technologies</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Machine Learning</span>
+                <span class="skill-tag">CI/CD</span>
+                <span class="skill-tag">LLM</span>
+                <span class="skill-tag">RAG</span>
+                <span class="skill-tag">Azure SDK</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Lambda</span>
+                <span class="skill-tag">OpenCV</span>
+                <span class="skill-tag">Torch</span>
+                <span class="skill-tag">Keras</span>
+                <span class="skill-tag">C/C++</span>
+                <span class="skill-tag">Systems</span>
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">Kafka</span>
+                <span class="skill-tag">Unit Test</span>
+                <span class="skill-tag">OOP</span>
+            </div>
+        </section>
+
+        <section id="moments" class="section">
+            <h2>Moments</h2>
+            <div class="moments-grid">
+                <figure class="moment-card">
+                    <img src="IMG_5601.JPG" alt="Bùi Ngọc Hải">
+                    <figcaption>Hải @ Cinnamon AI</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Bùi Ngọc Hải · Last updated June 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
-
-<!-- 
-    Created By : Hai
- -->
